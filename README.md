@@ -10,8 +10,8 @@ Extpatcher is a CLI tool that creates portable patch bundles for unpacked Chrome
 ## Install
 
 ```bash
-git clone <your-repo-url>
-cd extpatcher
+git clone https://github.com/minanagehsalalma/RevancedForChromeExtensions
+cd RevancedForChromeExtensions
 npm install
 ```
 
