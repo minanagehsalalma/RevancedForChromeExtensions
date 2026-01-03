@@ -1,4 +1,5 @@
 # Extpatcher
+<img width="500" height="559" alt="image" src="https://github.com/user-attachments/assets/b6b3dfd7-44af-4af8-8480-f176368a2ac7" />
 
 Extpatcher is a CLI tool that creates portable patch bundles for unpacked Chrome extensions. Given an original folder and a modified folder, it produces a zip patch bundle you can apply later to reproduce the modified version exactly.
 
