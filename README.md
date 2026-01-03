@@ -39,8 +39,8 @@ npm start -- apply --patch ./patch-bundle.zip --in ./Original.zip --out ./Patche
 npm start -- verify --patch ./patch-bundle.zip --in ./Original
 ```
 
-## Example (Cookie Editor in this repo)
-
+## Example ([Cookie Editor in this repo](https://github.com/minanagehsalalma/Rotten-Cookie))
+(you can use the ready patch directly from there)
 ```bash
 npm run build
 npm start -- make --original ./Original --modified ./Modified --out ./cookie-editor.patch.zip
