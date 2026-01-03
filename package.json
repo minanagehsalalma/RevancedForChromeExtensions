@@ -1,0 +1,30 @@
+{
+  "name": "extpatcher",
+  "version": "0.1.0",
+  "description": "ReVanced-style patch generator and patcher for unpacked Chrome extensions.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "extpatcher": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli.js",
+    "test": "node --test --import tsx test/patcher.test.ts"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fast-glob": "^3.3.2",
+    "yauzl": "^2.10.0",
+    "yazl": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/yauzl": "^2.10.0",
+    "@types/yazl": "^2.4.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5"
+  }
+}
